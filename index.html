@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicaciones Web - UNIANDES</title>
+    <style>
+      /* Paleta de colores y estilo base */
+      :root {
+        --color-fondo: #f0fffc;
+        --color-primario: #68a8e0;
+        --color-secundario: #283e51;
+        --color-acento: #f36bff;
+        --color-texto: #333333;
+      }
+
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: var(--color-fondo);
+        color: var(--color-texto);
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background: linear-gradient(to right, var(--color-primario), var(--color-secundario));
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+      }
+
+      header h1 {
+        margin: 10px;
+        animation: mover 2s infinite alternate;
+      }
+
+      main {
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: var(--color-acento);
+        border-bottom: 2px solid var(--color-acento);
+        padding-bottom: 5px;
+      }
+
+      ul {
+        list-style: square;
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--color-secundario);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: var(--color-acento);
+        text-decoration: underline;
+      }
+
+      .footer {
+        background-color: var(--color-secundario);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+      }
+
+      /* Animación para títulos */
+      @keyframes mover {
+        0% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tarea 1</h1>
+     <h1>Bienvenidos a mi página web</h1>
+     <h1>Creado por</h1>
+      <h1> Veronica Ocaña</h1>
+      <p>Universidad de los Andes – Carreara: Ingeniería de Ingeniería de Software</p>
+    </header>
+    <div style="text-align: center; margin-top: 20px;">
+  <img src="./imgen.jpg" alt="imagen muñeca" width="300" style="border-radius: 511px; box-shadow: 0 0 767px rgba(0, 0, 0, 0.2);">
+</div>
+    <main>
+      <section>
+        <h2>Mis metas personales</h2>
+        <p>
+          Mi meta personal en el curso es obtener conocimientos en <strong>Aplicaciones Web</strong>, lo que me permite crear soluciones personalizadas para diferentes industrias, desde comercio electrónico hasta educación, salud y entretenimiento.
+        </p>
+      </section>
+      <section>
+        <h2>Sobre Mí</h2>
+        <p><strong>Mi nombre:</strong> Verónica Ocaña</p>
+        <p><strong>Ciudad:</strong> Riobamba, la Ciudad Bonita</p>
+        <p><strong>Hobbies:</strong> Caminar, escuchar música, ver noticias</p>
+        <p><strong>Mi sueño:</strong> Ser una Ingeniera de Software</p>
+        <p><strong>Fortalezas:</strong> Responsable, honesta, trabajo en equipo</p>
+        <p><strong>Motivación:</strong> Aprender cosas nuevas cada día</p>
+        <p><strong>Felicidad:</strong> Mi familia y agradecer a Dios por mi trabajo</p>
+        <p><strong>Objetivo técnico:</strong> Aprender HTML, CSS y Base de Datos</p>
+        <p><strong>Deseo personal:</strong> Viajar, conocer nuevas culturas e idiomas</p>
+      </section>
+      <section>
+        <h2>Mis objetivos Principales</h2>
+        <ul>
+          <li>Adquirir habilidades para</li>
+          <li>Diseñar</li>
+          <li>Desarrollo</li>
+          <li>Desplegar aplicaciones web funcionales</li>
+          <li>Comprender los fundamentos del desarrollo web</li>
+          <li>Lenguajes de programación</li>
+          <li>Base de Datos</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Docente</h2>
+        <ul>
+          <li>ING. Luis Antonio Llerena Ocaña (Aplicaciones Web)</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contacto y Recursos</h2>
+        <ul>
+          <li><a href="https://uniandes.edu.co" target="_blank">Sitio web UNIANDES</a></li>
+          <li><a href="mailto:aplicacionesweb@uniandes.edu.co">aplicacionesweb@uniandes.edu.co</a></li>
+        </ul>
+      </section>
+    </main>
+    <div class="footer">
+      &copy; 2025 Universidad de los Andes. Todos los derechos reservados.
+    </div>
+  </body>
+</html>
